@@ -9,3 +9,5 @@ With the recent 64-bit update in February, the `logic_eventlistener` entity shou
 [sm-plugin-zombiereloaded v3.12.7+](https://github.com/srcdslab/sm-plugin-zombiereloaded) keep the event support from `trigger_brush` via cvar (`zr_infect_skip_trigger_brush`) for
 - `game_playerdie`
 - `game_playerkill`
+
+**`game_playershot` event can (and should) be handled via vscript since its not an original event from the game engine.**
